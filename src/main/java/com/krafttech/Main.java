@@ -1,2 +1,4 @@
-package com.krafttech;public class Main {
+package com.krafttech;
+
+public class Main {
 }
