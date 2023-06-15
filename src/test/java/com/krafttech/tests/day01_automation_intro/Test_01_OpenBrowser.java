@@ -11,7 +11,22 @@ public class Test_01_OpenBrowser {
 
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://www.google.com");
+        //driver.get("https://www.google.com");
+        driver.get("https://facebook.com");
         // https şart www olmazsa olur
+
+        // sayfanın title ını alalım
+        String actualTitle = driver.getTitle();
+        String expectedTitle = "Facebook - Giriş Yap veya Kaydol";
+
+        if(actualTitle.equals(expectedTitle)){
+            System.out.println("pass");
+        }else {
+            System.out.println("fail");
+        }
+
+        driver.close();
+
+
     }
 }
