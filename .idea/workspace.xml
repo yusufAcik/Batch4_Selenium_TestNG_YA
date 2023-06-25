@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81aeef27-1dac-41e8-a385-c7e6422803e3" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day01_automation_intro/Test_02_WindowMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day02_webDriverBasics/Test_01_NavigationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day02_webDriverBasics/Test_02_GetMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day02_webDriverBasics/Test_03_CallWebDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Test_01_ClickSendKeysGetTextMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Test_02_GetAttributeMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Test_03_TakeTheMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day04_BasicLocators/BasicLocatorPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/utilities/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/JavaTricks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day04_BasicLocators/JavaFakerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day05_XPath_and_CSS/CSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day05_XPath_and_CSS/JavaSorusu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day05_XPath_and_CSS/Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day05_XPath_and_CSS/Test_01_CssLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day05_XPath_and_CSS/Test_01_XPathPractise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day05_XPath_and_CSS/Test_03_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day05_XPath_and_CSS/Test_04_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day06_TestNG_intro/Test_1_TestNG_FirstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day06_TestNG_intro/Test_2_TestNG_BeforeAfter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day07_typeOfElements/Test_01_RadioBttn_CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day07_typeOfElements/Test_02_DropDowns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krafttech/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krafttech/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day01_automation_intro/Test_01_OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day01_automation_intro/Test_01_OpenBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,79 +61,103 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task">
-    <configuration name="BasicLocatorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day04_BasicLocators.BasicLocatorPractice" />
+  <component name="RunManager" selected="TestNG.Test_02_DropDowns">
+    <configuration name="Test_01_RadioBttn_CheckBox.checkBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day04_BasicLocators.*" />
+          <option name="PATTERN" value="com.krafttech.tests.day07_typeOfElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day07_typeOfElements" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day07_typeOfElements.Test_01_RadioBttn_CheckBox" />
+      <option name="METHOD_NAME" value="checkBoxTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day03_webelement_intro.Task" />
+    <configuration name="Test_01_RadioBttn_CheckBox.radioBttnTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttech.tests.day07_typeOfElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day07_typeOfElements" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day07_typeOfElements.Test_01_RadioBttn_CheckBox" />
+      <option name="METHOD_NAME" value="radioBttnTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day03_webelement_intro.Task2" />
+    <configuration name="Test_02_DropDowns" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttech.tests.day07_typeOfElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day07_typeOfElements" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day07_typeOfElements.Test_02_DropDowns" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_02_GetAttributeMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day03_webelement_intro.Test_02_GetAttributeMethod" />
+    <configuration name="Test_02_DropDowns.wihoutSelectTag" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttech.tests.day07_typeOfElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day07_typeOfElements" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day07_typeOfElements.Test_02_DropDowns" />
+      <option name="METHOD_NAME" value="wihoutSelectTag" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_03_TakeTheMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day03_webelement_intro.Test_03_TakeTheMessage" />
+    <configuration name="Test_2_TestNG_BeforeAfter.findElements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttech.tests.day06_TestNG_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day06_TestNG_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day06_TestNG_intro.Test_2_TestNG_BeforeAfter" />
+      <option name="METHOD_NAME" value="findElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task" />
-        <item itemvalue="Application.BasicLocatorPractice" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Test_03_TakeTheMessage" />
-        <item itemvalue="Application.Test_02_GetAttributeMethod" />
+        <item itemvalue="TestNG.Test_02_DropDowns" />
+        <item itemvalue="TestNG.Test_02_DropDowns.wihoutSelectTag" />
+        <item itemvalue="TestNG.Test_01_RadioBttn_CheckBox.radioBttnTest" />
+        <item itemvalue="TestNG.Test_01_RadioBttn_CheckBox.checkBoxTest" />
+        <item itemvalue="TestNG.Test_2_TestNG_BeforeAfter.findElements" />
       </list>
     </recent_temporary>
   </component>
@@ -152,8 +177,26 @@
       <option name="project" value="LOCAL" />
       <updated>1686258315548</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1686864600216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686864600216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -169,7 +212,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Task.java</url>
-          <line>15</line>
+          <line>19</line>
           <properties class="com.krafttech.tests.day03_webelement_intro.Task" method="orderColor">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
