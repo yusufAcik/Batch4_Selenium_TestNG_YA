@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81aeef27-1dac-41e8-a385-c7e6422803e3" name="Changes" comment="06 26">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day05_XPath_and_CSS/JavaSorusuAlternatif.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day07_typeOfElements/_4_In_1_Location_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day08_Alerts_MultipleWindows/JavaQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day08_Alerts_MultipleWindows/Test_01_Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day08_Alerts_MultipleWindows/Test_02_MultipleWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day08_Alerts_MultipleWindows/Test_03_Iframes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day09_Waits/Test_01_ImplicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day09_Waits/Test_02_ExplicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,25 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Test_01_ActionClass.doubleClick">
+  <component name="RunManager" selected="TestNG.Test_01_ActionClass.actionsFillForm">
+    <configuration name="Test_01_ActionClass.actionsFillForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_Selenium_TestNG_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.Test_01_ActionClass" />
+      <option name="METHOD_NAME" value="actionsFillForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test_01_ActionClass.doubleClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
@@ -85,24 +95,6 @@
       <option name="PACKAGE_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted" />
       <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.Test_01_ActionClass" />
       <option name="METHOD_NAME" value="dragAndDrop" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_02_ExplicitlyWait.explicitlyWait_2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_Selenium_TestNG_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day09_Waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttech.tests.day09_Waits" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day09_Waits.Test_02_ExplicitlyWait" />
-      <option name="METHOD_NAME" value="explicitlyWait_2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_01_ActionClass.actionsFillForm" />
         <item itemvalue="TestNG.Test_01_ActionClass.doubleClick" />
         <item itemvalue="TestNG.Test_01_ActionClass.dragAndDrop" />
         <item itemvalue="TestNG.Test_02_ExplicitlyWait.fluentWait" />
         <item itemvalue="TestNG.Test_02_ExplicitlyWait.explicitlyWait_3" />
-        <item itemvalue="TestNG.Test_02_ExplicitlyWait.explicitlyWait_2" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687729403720</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="06 26">
+      <created>1688588563776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688588563776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +216,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/krafttech/tests/day09_Waits/Test_02_ExplicitlyWait.java</url>
           <line>93</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/krafttech/tests/day03_webelement_intro/Task.java</url>

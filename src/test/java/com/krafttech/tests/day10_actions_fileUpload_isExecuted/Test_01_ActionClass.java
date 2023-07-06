@@ -2,6 +2,7 @@ package com.krafttech.tests.day10_actions_fileUpload_isExecuted;
 
 import com.krafttech.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -65,7 +66,35 @@ public class Test_01_ActionClass {
         WebElement clicker = driver.findElement(By.cssSelector("button#clicker"));
         actions.doubleClick(clicker).perform();
 
+        actions.moveToElement(clicker,5,5).click().perform();
+        // elementin 5 pixel sağa 5 pixel aşağıya click yapar
+
         actions.click(clicker);
         Thread.sleep(2000);
+    }
+
+    @Test
+    public void actionsFillForm() {
+       // https://www.krafttechexlab.com/forms/elements
+
+        // form doldururken her alanı locate etmeden kısa yoldan yapmamızı sağlar
+        driver.get("https://www.krafttechexlab.com/forms/elements");
+        WebElement firstElement = driver.findElement(By.cssSelector("[name='text']"));
+
+        actions.click(firstElement)
+                .sendKeys("Ali Ak"+ Keys.TAB)
+                .sendKeys("aliak@aaa.com"+Keys.TAB)
+                .sendKeys("1234")
+                .sendKeys(Keys.TAB)
+                .sendKeys("02123131"+Keys.TAB+Keys.TAB)
+                .sendKeys("12122022"+Keys.TAB)
+                .sendKeys("1212p"+Keys.TAB+Keys.TAB)
+                .sendKeys("Batch 4 was here"+Keys.TAB+Keys.TAB+Keys.TAB+Keys.TAB+Keys.TAB+Keys.TAB+Keys.TAB+Keys.TAB+Keys.TAB)
+                .sendKeys("aaaaa@aaaa.com"+Keys.TAB)
+                .sendKeys("123456"+Keys.TAB)
+                .sendKeys("No Comment"+Keys.TAB+Keys.TAB+Keys.ENTER).perform();
+
+        WebElement result = driver.findElement(By.tagName("pre"));
+        System.out.println("result.getText() = " + result.getText());
     }
 }
