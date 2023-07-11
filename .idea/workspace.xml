@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81aeef27-1dac-41e8-a385-c7e6422803e3" name="Changes" comment="06 26">
+    <list default="true" id="81aeef27-1dac-41e8-a385-c7e6422803e3" name="Changes" comment="07 06">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/JavaQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688588563776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="07 06">
+      <created>1688652937712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688652937712</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="06 26" />
-    <option name="LAST_COMMIT_MESSAGE" value="06 26" />
+    <MESSAGE value="07 06" />
+    <option name="LAST_COMMIT_MESSAGE" value="07 06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
