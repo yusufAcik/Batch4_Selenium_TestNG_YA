@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81aeef27-1dac-41e8-a385-c7e6422803e3" name="Changes" comment="07 06">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/JavaQuestion.java" afterDir="false" />
+    <list default="true" id="81aeef27-1dac-41e8-a385-c7e6422803e3" name="Changes" comment="07 11">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ggg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_02_FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_03_JSExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day11_webTables/Test_01_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day12_singleton_properties/SingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day12_singleton_properties/SingletonDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day12_singleton_properties/SingletonTest_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/utilities/BrowserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/JavaQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/JavaQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/utilities/WebDriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +61,61 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Test_01_ActionClass.actionsFillForm">
-    <configuration name="Test_01_ActionClass.actionsFillForm" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SingletonTest_2">
+    <configuration name="SingletonDemoTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_Selenium_TestNG_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttech.tests.day12_singleton_properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day12_singleton_properties" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day12_singleton_properties.SingletonDemoTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_Selenium_TestNG_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttech.tests.day12_singleton_properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day12_singleton_properties" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day12_singleton_properties.SingletonTest_2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_01_WebTables.webTablesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_Selenium_TestNG_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttech.tests.day11_webTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day_11_webTables" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day11_webTables.Test_01_WebTables" />
+      <option name="METHOD_NAME" value="webTablesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_02_FileUpload.fileUpload2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.Test_01_ActionClass" />
-      <option name="METHOD_NAME" value="actionsFillForm" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.Test_02_FileUpload" />
+      <option name="METHOD_NAME" value="fileUpload2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_01_ActionClass.doubleClick" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_03_JSExecutor.jsExecutorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
         <pattern>
@@ -75,62 +142,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.Test_01_ActionClass" />
-      <option name="METHOD_NAME" value="doubleClick" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_01_ActionClass.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_Selenium_TestNG_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.Test_01_ActionClass" />
-      <option name="METHOD_NAME" value="dragAndDrop" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_02_ExplicitlyWait.explicitlyWait_3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_Selenium_TestNG_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day09_Waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttech.tests.day09_Waits" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day09_Waits.Test_02_ExplicitlyWait" />
-      <option name="METHOD_NAME" value="explicitlyWait_3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_02_ExplicitlyWait.fluentWait" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_Selenium_TestNG_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day09_Waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttech.tests.day09_Waits" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day09_Waits.Test_02_ExplicitlyWait" />
-      <option name="METHOD_NAME" value="fluentWait" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day10_actions_fileUpload_isExecuted.Test_03_JSExecutor" />
+      <option name="METHOD_NAME" value="jsExecutorTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test_01_ActionClass.actionsFillForm" />
-        <item itemvalue="TestNG.Test_01_ActionClass.doubleClick" />
-        <item itemvalue="TestNG.Test_01_ActionClass.dragAndDrop" />
-        <item itemvalue="TestNG.Test_02_ExplicitlyWait.fluentWait" />
-        <item itemvalue="TestNG.Test_02_ExplicitlyWait.explicitlyWait_3" />
+        <item itemvalue="TestNG.SingletonTest_2" />
+        <item itemvalue="TestNG.SingletonDemoTest.test1" />
+        <item itemvalue="TestNG.Test_01_WebTables.webTablesTest" />
+        <item itemvalue="TestNG.Test_03_JSExecutor.jsExecutorTest" />
+        <item itemvalue="TestNG.Test_02_FileUpload.fileUpload2" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688652937712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="07 11">
+      <created>1689106459416</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689106459416</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +230,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="06 26" />
     <MESSAGE value="07 06" />
-    <option name="LAST_COMMIT_MESSAGE" value="07 06" />
+    <MESSAGE value="07 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="07 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,7 +248,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/krafttech/tests/day10_actions_fileUpload_isExecuted/Test_01_ActionClass.java</url>
-          <line>58</line>
+          <line>59</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

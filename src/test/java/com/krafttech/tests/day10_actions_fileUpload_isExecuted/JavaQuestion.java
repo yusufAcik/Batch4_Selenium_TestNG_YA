@@ -11,6 +11,9 @@ public class JavaQuestion {
         String str="yaman";
         String str1="manya";
 
+        System.out.println("isRotation(str,str1) = " + isRotation(str, str1));
+        System.out.println("isRotation1(str1,str) = " + isRotation1(str1, str));
+
 
     }
     public static boolean isRotation(String str1,String str2){

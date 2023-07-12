@@ -20,5 +20,21 @@ public class WebDriverFactory {
         }
         return driver;
         }
+
+    public static WebDriver getDriver (){
+        WebDriver driver=null;
+        String browserType=BrowserName.browserName;
+        switch (browserType.toLowerCase()){
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
+                break;
+            case "firefox":
+                WebDriverManager.firefoxdriver().setup();
+                driver=new FirefoxDriver();
+                break;
+        }
+        return driver;
+    }
     }
 
