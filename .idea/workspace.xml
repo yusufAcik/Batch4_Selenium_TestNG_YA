@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81aeef27-1dac-41e8-a385-c7e6422803e3" name="Changes" comment="07 12">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day13_pom_1/Test_1_LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day13_pom_1/Test_2_NavigateTabAndModuleTest.java" afterDir="false" />
+    <list default="true" id="81aeef27-1dac-41e8-a385-c7e6422803e3" name="Changes" comment="07 13">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/AddEducationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/UserProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/day13_pom_1/Test_03_AddEducationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,25 +53,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Test_2_NavigateTabAndModuleTest.navigateTest">
-    <configuration name="SingletonDemoTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_Selenium_TestNG_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttech.tests.day12_singleton_properties.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttech.tests.day12_singleton_properties" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day12_singleton_properties.SingletonDemoTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Test_03_AddEducationTest.addEducationTest">
     <configuration name="SingletonTest_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_Selenium_TestNG_YA" />
       <extension name="coverage">
@@ -83,6 +65,24 @@
       <option name="PACKAGE_NAME" value="com.krafttech.tests.day12_singleton_properties" />
       <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day12_singleton_properties.SingletonTest_2" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_03_AddEducationTest.addEducationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_Selenium_TestNG_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttech.tests.day13_pom_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttech.tests.day13_pom_1" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttech.tests.day13_pom_1.Test_03_AddEducationTest" />
+      <option name="METHOD_NAME" value="addEducationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_03_AddEducationTest.addEducationTest" />
         <item itemvalue="TestNG.Test_2_NavigateTabAndModuleTest.navigateTest" />
         <item itemvalue="TestNG.Test_1_LoginTest.positiveLoginTest_2" />
         <item itemvalue="TestNG.Test_1_LoginTest.positiveLoginTest" />
         <item itemvalue="TestNG.SingletonTest_2" />
-        <item itemvalue="TestNG.SingletonDemoTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689188925193</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="07 13">
+      <created>1689266132010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689266132010</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +238,8 @@
     <MESSAGE value="07 06" />
     <MESSAGE value="07 11" />
     <MESSAGE value="07 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="07 12" />
+    <MESSAGE value="07 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="07 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
